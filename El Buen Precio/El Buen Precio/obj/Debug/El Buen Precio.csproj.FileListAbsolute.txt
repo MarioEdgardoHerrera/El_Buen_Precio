@@ -1,0 +1,144 @@
+c:\users\mon\documents\visual studio 2012\Projects\El Buen Precio\El Buen Precio\bin\Debug\El Buen Precio.exe.config
+c:\users\mon\documents\visual studio 2012\Projects\El Buen Precio\El Buen Precio\bin\Debug\El Buen Precio.exe
+c:\users\mon\documents\visual studio 2012\Projects\El Buen Precio\El Buen Precio\bin\Debug\El Buen Precio.pdb
+c:\users\mon\documents\visual studio 2012\Projects\El Buen Precio\El Buen Precio\obj\Debug\El Buen Precio.csprojResolveAssemblyReference.cache
+c:\users\mon\documents\visual studio 2012\Projects\El Buen Precio\El Buen Precio\obj\Debug\El_Buen_Precio.Form1.resources
+c:\users\mon\documents\visual studio 2012\Projects\El Buen Precio\El Buen Precio\obj\Debug\El_Buen_Precio.Properties.Resources.resources
+c:\users\mon\documents\visual studio 2012\Projects\El Buen Precio\El Buen Precio\obj\Debug\El_Buen_Precio.Proveedores.resources
+c:\users\mon\documents\visual studio 2012\Projects\El Buen Precio\El Buen Precio\obj\Debug\El Buen Precio.csproj.GenerateResource.Cache
+c:\users\mon\documents\visual studio 2012\Projects\El Buen Precio\El Buen Precio\obj\Debug\El Buen Precio.exe
+c:\users\mon\documents\visual studio 2012\Projects\El Buen Precio\El Buen Precio\obj\Debug\El Buen Precio.pdb
+c:\users\mon\documents\visual studio 2012\Projects\El Buen Precio\El Buen Precio\obj\Debug\El_Buen_Precio.Empleados.resources
+C:\Users\mon\Documents\Visual Studio 2012\Projects\El Buen Precio\El Buen Precio\obj\Debug\El_Buen_Precio.Compra.resources
+C:\Users\mon\Documents\Visual Studio 2012\Projects\El Buen Precio\El Buen Precio\obj\Debug\El_Buen_Precio.buscar_categorias.resources
+C:\Users\mon\Documents\Visual Studio 2012\Projects\El Buen Precio\El Buen Precio\obj\Debug\El_Buen_Precio.Categorias.resources
+C:\Users\mon\Documents\Visual Studio 2012\Projects\El Buen Precio\El Buen Precio\obj\Debug\El_Buen_Precio.Producto.resources
+C:\Users\Luis Centeno\Desktop\El Buen Precio\El Buen Precio\bin\Debug\El Buen Precio.exe.config
+C:\Users\Luis Centeno\Desktop\El Buen Precio\El Buen Precio\bin\Debug\El Buen Precio.exe
+C:\Users\Luis Centeno\Desktop\El Buen Precio\El Buen Precio\bin\Debug\El Buen Precio.pdb
+C:\Users\Luis Centeno\Desktop\El Buen Precio\El Buen Precio\bin\Debug\MetroFramework.dll
+C:\Users\Luis Centeno\Desktop\El Buen Precio\El Buen Precio\bin\Debug\MetroFramework.Fonts.dll
+C:\Users\Luis Centeno\Desktop\El Buen Precio\El Buen Precio\bin\Debug\MySql.Data.dll
+C:\Users\Luis Centeno\Desktop\El Buen Precio\El Buen Precio\bin\Debug\MySql.Data.xml
+C:\Users\Luis Centeno\Desktop\El Buen Precio\El Buen Precio\obj\Debug\El_Buen_Precio.buscar_categorias.resources
+C:\Users\Luis Centeno\Desktop\El Buen Precio\El Buen Precio\obj\Debug\El_Buen_Precio.Categorias.resources
+C:\Users\Luis Centeno\Desktop\El Buen Precio\El Buen Precio\obj\Debug\El_Buen_Precio.Empleados.resources
+C:\Users\Luis Centeno\Desktop\El Buen Precio\El Buen Precio\obj\Debug\El_Buen_Precio.Compra.resources
+C:\Users\Luis Centeno\Desktop\El Buen Precio\El Buen Precio\obj\Debug\El_Buen_Precio.Form1.resources
+C:\Users\Luis Centeno\Desktop\El Buen Precio\El Buen Precio\obj\Debug\El_Buen_Precio.Producto.resources
+C:\Users\Luis Centeno\Desktop\El Buen Precio\El Buen Precio\obj\Debug\El_Buen_Precio.Properties.Resources.resources
+C:\Users\Luis Centeno\Desktop\El Buen Precio\El Buen Precio\obj\Debug\El_Buen_Precio.Proveedores.resources
+C:\Users\Luis Centeno\Desktop\El Buen Precio\El Buen Precio\obj\Debug\El Buen Precio.csproj.GenerateResource.Cache
+C:\Users\Luis Centeno\Desktop\El Buen Precio\El Buen Precio\obj\Debug\El Buen Precio.exe
+C:\Users\Luis Centeno\Desktop\El Buen Precio\El Buen Precio\obj\Debug\El Buen Precio.pdb
+C:\Users\Luis Centeno\Desktop\El Buen Precio\El Buen Precio\obj\Debug\El Buen Precio.csprojResolveAssemblyReference.cache
+C:\Users\Luis Centeno\Desktop\El Buen Precio\El Buen Precio\obj\Debug\El_Buen_Precio.Inventario.resources
+C:\Users\mon\Desktop\Desktop\El Buen Precio\El Buen Precio\bin\Debug\El Buen Precio.exe.config
+C:\Users\mon\Desktop\Desktop\El Buen Precio\El Buen Precio\obj\Debug\El Buen Precio.exe
+C:\Users\mon\Desktop\Desktop\El Buen Precio\El Buen Precio\obj\Debug\El Buen Precio.pdb
+C:\Users\mon\Desktop\Desktop\El Buen Precio\El Buen Precio\bin\Debug\El Buen Precio.exe
+C:\Users\mon\Desktop\Desktop\El Buen Precio\El Buen Precio\bin\Debug\El Buen Precio.pdb
+C:\Users\mon\Desktop\Desktop\El Buen Precio\El Buen Precio\bin\Debug\MetroFramework.dll
+C:\Users\mon\Desktop\Desktop\El Buen Precio\El Buen Precio\bin\Debug\MetroFramework.Fonts.dll
+C:\Users\mon\Desktop\Desktop\El Buen Precio\El Buen Precio\obj\Debug\El Buen Precio.csprojResolveAssemblyReference.cache
+C:\Users\mon\Desktop\Desktop\El Buen Precio\El Buen Precio\obj\Debug\El_Buen_Precio.Categorias.resources
+C:\Users\mon\Desktop\Desktop\El Buen Precio\El Buen Precio\obj\Debug\El_Buen_Precio.Empleados.resources
+C:\Users\mon\Desktop\Desktop\El Buen Precio\El Buen Precio\obj\Debug\El_Buen_Precio.Compra.resources
+C:\Users\mon\Desktop\Desktop\El Buen Precio\El Buen Precio\obj\Debug\El_Buen_Precio.Form1.resources
+C:\Users\mon\Desktop\Desktop\El Buen Precio\El Buen Precio\obj\Debug\El_Buen_Precio.Inventario.resources
+C:\Users\mon\Desktop\Desktop\El Buen Precio\El Buen Precio\obj\Debug\El_Buen_Precio.Producto.resources
+C:\Users\mon\Desktop\Desktop\El Buen Precio\El Buen Precio\obj\Debug\El_Buen_Precio.Properties.Resources.resources
+C:\Users\mon\Desktop\Desktop\El Buen Precio\El Buen Precio\obj\Debug\El_Buen_Precio.Proveedores.resources
+C:\Users\mon\Desktop\Desktop\El Buen Precio\El Buen Precio\obj\Debug\El Buen Precio.csproj.GenerateResource.Cache
+C:\Users\mon\Desktop\Desktop\El Buen Precio\El Buen Precio\obj\Debug\El_Buen_Precio.vencimiento.resources
+C:\Users\mon\Desktop\Desktop\El Buen Precio\El Buen Precio\obj\Debug\El_Buen_Precio.Disponibilidad.resources
+C:\Users\mon\Desktop\Desktop\El Buen Precio\El Buen Precio\obj\Debug\El_Buen_Precio.buscar_productos.resources
+C:\Users\mon\Desktop\Desktop\El Buen Precio\El Buen Precio\obj\Debug\El_Buen_Precio.Distribuidoras.resources
+C:\Users\mon\Desktop\Desktop\El Buen Precio\El Buen Precio\obj\Debug\El_Buen_Precio.Buscar_Proveedor.resources
+C:\Users\mon\Desktop\Desktop\El Buen Precio\El Buen Precio\obj\Debug\El_Buen_Precio.proveedor__de__producto.resources
+C:\Users\Luis Centeno\Documents\Visual Studio 2017\Projects\El Buen Precio\El Buen Precio\bin\Debug\El Buen Precio.exe.config
+C:\Users\Luis Centeno\Documents\Visual Studio 2017\Projects\El Buen Precio\El Buen Precio\bin\Debug\El Buen Precio.exe
+C:\Users\Luis Centeno\Documents\Visual Studio 2017\Projects\El Buen Precio\El Buen Precio\bin\Debug\El Buen Precio.pdb
+C:\Users\Luis Centeno\Documents\Visual Studio 2017\Projects\El Buen Precio\El Buen Precio\bin\Debug\MetroFramework.dll
+C:\Users\Luis Centeno\Documents\Visual Studio 2017\Projects\El Buen Precio\El Buen Precio\bin\Debug\MetroFramework.Fonts.dll
+C:\Users\Luis Centeno\Documents\Visual Studio 2017\Projects\El Buen Precio\El Buen Precio\bin\Debug\MySql.Data.dll
+C:\Users\Luis Centeno\Documents\Visual Studio 2017\Projects\El Buen Precio\El Buen Precio\bin\Debug\MySql.Data.xml
+C:\Users\Luis Centeno\Documents\Visual Studio 2017\Projects\El Buen Precio\El Buen Precio\obj\Debug\El Buen Precio.csprojResolveAssemblyReference.cache
+C:\Users\Luis Centeno\Documents\Visual Studio 2017\Projects\El Buen Precio\El Buen Precio\obj\Debug\El_Buen_Precio.Buscar_Proveedor.resources
+C:\Users\Luis Centeno\Documents\Visual Studio 2017\Projects\El Buen Precio\El Buen Precio\obj\Debug\El_Buen_Precio.buscar_productos.resources
+C:\Users\Luis Centeno\Documents\Visual Studio 2017\Projects\El Buen Precio\El Buen Precio\obj\Debug\El_Buen_Precio.Categorias.resources
+C:\Users\Luis Centeno\Documents\Visual Studio 2017\Projects\El Buen Precio\El Buen Precio\obj\Debug\El_Buen_Precio.Disponibilidad.resources
+C:\Users\Luis Centeno\Documents\Visual Studio 2017\Projects\El Buen Precio\El Buen Precio\obj\Debug\El_Buen_Precio.Distribuidoras.resources
+C:\Users\Luis Centeno\Documents\Visual Studio 2017\Projects\El Buen Precio\El Buen Precio\obj\Debug\El_Buen_Precio.Empleados.resources
+C:\Users\Luis Centeno\Documents\Visual Studio 2017\Projects\El Buen Precio\El Buen Precio\obj\Debug\El_Buen_Precio.Compra.resources
+C:\Users\Luis Centeno\Documents\Visual Studio 2017\Projects\El Buen Precio\El Buen Precio\obj\Debug\El_Buen_Precio.Form1.resources
+C:\Users\Luis Centeno\Documents\Visual Studio 2017\Projects\El Buen Precio\El Buen Precio\obj\Debug\El_Buen_Precio.Inventario.resources
+C:\Users\Luis Centeno\Documents\Visual Studio 2017\Projects\El Buen Precio\El Buen Precio\obj\Debug\El_Buen_Precio.Producto.resources
+C:\Users\Luis Centeno\Documents\Visual Studio 2017\Projects\El Buen Precio\El Buen Precio\obj\Debug\El_Buen_Precio.Properties.Resources.resources
+C:\Users\Luis Centeno\Documents\Visual Studio 2017\Projects\El Buen Precio\El Buen Precio\obj\Debug\El_Buen_Precio.proveedor__de__producto.resources
+C:\Users\Luis Centeno\Documents\Visual Studio 2017\Projects\El Buen Precio\El Buen Precio\obj\Debug\El_Buen_Precio.Proveedores.resources
+C:\Users\Luis Centeno\Documents\Visual Studio 2017\Projects\El Buen Precio\El Buen Precio\obj\Debug\El_Buen_Precio.vencimiento.resources
+C:\Users\Luis Centeno\Documents\Visual Studio 2017\Projects\El Buen Precio\El Buen Precio\obj\Debug\El Buen Precio.csproj.GenerateResource.Cache
+C:\Users\Luis Centeno\Documents\Visual Studio 2017\Projects\El Buen Precio\El Buen Precio\obj\Debug\El Buen Precio.exe
+C:\Users\Luis Centeno\Documents\Visual Studio 2017\Projects\El Buen Precio\El Buen Precio\obj\Debug\El Buen Precio.pdb
+C:\Users\Luis Centeno\Documents\Visual Studio 2017\Projects\El Buen Precio\El Buen Precio\obj\Debug\El_Buen_Precio.Facturacion.resources
+C:\Users\mon\Desktop\Projects.zip\El Buen Precio\El Buen Precio\bin\Debug\El Buen Precio.exe.config
+C:\Users\mon\Desktop\Projects.zip\El Buen Precio\El Buen Precio\obj\Debug\El Buen Precio.exe
+C:\Users\mon\Desktop\Projects.zip\El Buen Precio\El Buen Precio\obj\Debug\El Buen Precio.pdb
+C:\Users\mon\Desktop\Projects.zip\El Buen Precio\El Buen Precio\bin\Debug\El Buen Precio.exe
+C:\Users\mon\Desktop\Projects.zip\El Buen Precio\El Buen Precio\bin\Debug\El Buen Precio.pdb
+C:\Users\mon\Desktop\Projects.zip\El Buen Precio\El Buen Precio\bin\Debug\MetroFramework.dll
+C:\Users\mon\Desktop\Projects.zip\El Buen Precio\El Buen Precio\bin\Debug\MetroFramework.Fonts.dll
+C:\Users\mon\Desktop\Projects.zip\El Buen Precio\El Buen Precio\obj\Debug\El Buen Precio.csprojResolveAssemblyReference.cache
+C:\Users\mon\Desktop\Projects.zip\El Buen Precio\El Buen Precio\obj\Debug\El_Buen_Precio.Buscar_Proveedor.resources
+C:\Users\mon\Desktop\Projects.zip\El Buen Precio\El Buen Precio\obj\Debug\El_Buen_Precio.buscar_productos.resources
+C:\Users\mon\Desktop\Projects.zip\El Buen Precio\El Buen Precio\obj\Debug\El_Buen_Precio.Categorias.resources
+C:\Users\mon\Desktop\Projects.zip\El Buen Precio\El Buen Precio\obj\Debug\El_Buen_Precio.Disponibilidad.resources
+C:\Users\mon\Desktop\Projects.zip\El Buen Precio\El Buen Precio\obj\Debug\El_Buen_Precio.Distribuidoras.resources
+C:\Users\mon\Desktop\Projects.zip\El Buen Precio\El Buen Precio\obj\Debug\El_Buen_Precio.Empleados.resources
+C:\Users\mon\Desktop\Projects.zip\El Buen Precio\El Buen Precio\obj\Debug\El_Buen_Precio.Compra.resources
+C:\Users\mon\Desktop\Projects.zip\El Buen Precio\El Buen Precio\obj\Debug\El_Buen_Precio.Facturacion.resources
+C:\Users\mon\Desktop\Projects.zip\El Buen Precio\El Buen Precio\obj\Debug\El_Buen_Precio.Form1.resources
+C:\Users\mon\Desktop\Projects.zip\El Buen Precio\El Buen Precio\obj\Debug\El_Buen_Precio.Inventario.resources
+C:\Users\mon\Desktop\Projects.zip\El Buen Precio\El Buen Precio\obj\Debug\El_Buen_Precio.Producto.resources
+C:\Users\mon\Desktop\Projects.zip\El Buen Precio\El Buen Precio\obj\Debug\El_Buen_Precio.Properties.Resources.resources
+C:\Users\mon\Desktop\Projects.zip\El Buen Precio\El Buen Precio\obj\Debug\El_Buen_Precio.proveedor__de__producto.resources
+C:\Users\mon\Desktop\Projects.zip\El Buen Precio\El Buen Precio\obj\Debug\El_Buen_Precio.Proveedores.resources
+C:\Users\mon\Desktop\Projects.zip\El Buen Precio\El Buen Precio\obj\Debug\El_Buen_Precio.vencimiento.resources
+C:\Users\mon\Desktop\Projects.zip\El Buen Precio\El Buen Precio\obj\Debug\El Buen Precio.csproj.GenerateResource.Cache
+C:\Users\mon\Desktop\Projects.zip\El Buen Precio\El Buen Precio\bin\Debug\MySql.Data.dll
+C:\Users\mon\Desktop\Projects.zip\El Buen Precio\El Buen Precio\bin\Debug\MySql.Data.xml
+C:\Users\mon\Desktop\Projects.zip\El Buen Precio\El Buen Precio\obj\Debug\El_Buen_Precio.venta_cliente.resources
+C:\Users\mon\Desktop\Projects.zip\El Buen Precio\El Buen Precio\obj\Debug\El_Buen_Precio.Login.resources
+C:\Users\mon\Desktop\Projects.zip\El Buen Precio\El Buen Precio\obj\Debug\El_Buen_Precio.Reguistrar.resources
+C:\Users\mon\Desktop\Projects.zip\El Buen Precio\El Buen Precio\obj\Debug\El_Buen_Precio.producto_mas_vendido.resources
+C:\Users\mon\Desktop\Ppppps.zip\Projects.zip\El Buen Precio\El Buen Precio\bin\Debug\El Buen Precio.exe.config
+C:\Users\mon\Desktop\Ppppps.zip\Projects.zip\El Buen Precio\El Buen Precio\bin\Debug\El Buen Precio.exe
+C:\Users\mon\Desktop\Ppppps.zip\Projects.zip\El Buen Precio\El Buen Precio\bin\Debug\El Buen Precio.pdb
+C:\Users\mon\Desktop\Ppppps.zip\Projects.zip\El Buen Precio\El Buen Precio\bin\Debug\MetroFramework.dll
+C:\Users\mon\Desktop\Ppppps.zip\Projects.zip\El Buen Precio\El Buen Precio\bin\Debug\MetroFramework.Fonts.dll
+C:\Users\mon\Desktop\Ppppps.zip\Projects.zip\El Buen Precio\El Buen Precio\bin\Debug\MySql.Data.dll
+C:\Users\mon\Desktop\Ppppps.zip\Projects.zip\El Buen Precio\El Buen Precio\bin\Debug\MySql.Data.xml
+C:\Users\mon\Desktop\Ppppps.zip\Projects.zip\El Buen Precio\El Buen Precio\obj\Debug\El Buen Precio.csprojResolveAssemblyReference.cache
+C:\Users\mon\Desktop\Ppppps.zip\Projects.zip\El Buen Precio\El Buen Precio\obj\Debug\El_Buen_Precio.Buscar_Proveedor.resources
+C:\Users\mon\Desktop\Ppppps.zip\Projects.zip\El Buen Precio\El Buen Precio\obj\Debug\El_Buen_Precio.buscar_productos.resources
+C:\Users\mon\Desktop\Ppppps.zip\Projects.zip\El Buen Precio\El Buen Precio\obj\Debug\El_Buen_Precio.Categorias.resources
+C:\Users\mon\Desktop\Ppppps.zip\Projects.zip\El Buen Precio\El Buen Precio\obj\Debug\El_Buen_Precio.Disponibilidad.resources
+C:\Users\mon\Desktop\Ppppps.zip\Projects.zip\El Buen Precio\El Buen Precio\obj\Debug\El_Buen_Precio.Distribuidoras.resources
+C:\Users\mon\Desktop\Ppppps.zip\Projects.zip\El Buen Precio\El Buen Precio\obj\Debug\El_Buen_Precio.Empleados.resources
+C:\Users\mon\Desktop\Ppppps.zip\Projects.zip\El Buen Precio\El Buen Precio\obj\Debug\El_Buen_Precio.Compra.resources
+C:\Users\mon\Desktop\Ppppps.zip\Projects.zip\El Buen Precio\El Buen Precio\obj\Debug\El_Buen_Precio.Facturacion.resources
+C:\Users\mon\Desktop\Ppppps.zip\Projects.zip\El Buen Precio\El Buen Precio\obj\Debug\El_Buen_Precio.Form1.resources
+C:\Users\mon\Desktop\Ppppps.zip\Projects.zip\El Buen Precio\El Buen Precio\obj\Debug\El_Buen_Precio.Inventario.resources
+C:\Users\mon\Desktop\Ppppps.zip\Projects.zip\El Buen Precio\El Buen Precio\obj\Debug\El_Buen_Precio.producto_mas_vendido.resources
+C:\Users\mon\Desktop\Ppppps.zip\Projects.zip\El Buen Precio\El Buen Precio\obj\Debug\El_Buen_Precio.Producto.resources
+C:\Users\mon\Desktop\Ppppps.zip\Projects.zip\El Buen Precio\El Buen Precio\obj\Debug\El_Buen_Precio.Login.resources
+C:\Users\mon\Desktop\Ppppps.zip\Projects.zip\El Buen Precio\El Buen Precio\obj\Debug\El_Buen_Precio.Properties.Resources.resources
+C:\Users\mon\Desktop\Ppppps.zip\Projects.zip\El Buen Precio\El Buen Precio\obj\Debug\El_Buen_Precio.proveedor__de__producto.resources
+C:\Users\mon\Desktop\Ppppps.zip\Projects.zip\El Buen Precio\El Buen Precio\obj\Debug\El_Buen_Precio.Proveedores.resources
+C:\Users\mon\Desktop\Ppppps.zip\Projects.zip\El Buen Precio\El Buen Precio\obj\Debug\El_Buen_Precio.vencimiento.resources
+C:\Users\mon\Desktop\Ppppps.zip\Projects.zip\El Buen Precio\El Buen Precio\obj\Debug\El_Buen_Precio.venta_cliente.resources
+C:\Users\mon\Desktop\Ppppps.zip\Projects.zip\El Buen Precio\El Buen Precio\obj\Debug\El_Buen_Precio.Reguistrar.resources
+C:\Users\mon\Desktop\Ppppps.zip\Projects.zip\El Buen Precio\El Buen Precio\obj\Debug\El Buen Precio.csproj.GenerateResource.Cache
+C:\Users\mon\Desktop\Ppppps.zip\Projects.zip\El Buen Precio\El Buen Precio\obj\Debug\El Buen Precio.exe
+C:\Users\mon\Desktop\Ppppps.zip\Projects.zip\El Buen Precio\El Buen Precio\obj\Debug\El Buen Precio.pdb

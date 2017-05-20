@@ -37,5 +37,12 @@ namespace El_Buen_Precio
 
             }
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Inventario Regresar = new Inventario();
+            Regresar.Show();
+            this.Hide();
+        }
     }
 }

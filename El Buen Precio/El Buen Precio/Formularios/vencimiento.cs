@@ -36,5 +36,38 @@ namespace El_Buen_Precio
         {
             mostrar();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Inventario Regresar = new Inventario();
+            Regresar.Show();
+            this.Hide();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            int selectedrowindex = dataGridView1.SelectedCells[0].RowIndex;
+            DataGridViewRow selectedRow = dataGridView1.Rows[selectedrowindex];
+            int id_producto = Convert.ToInt32(selectedRow.Cells["producto_id"].Value);
+
+            string query = "DELETE FROM `producto` WHERE `id`= "+id_producto+";";
+            MySqlCommand cmd1 = new MySqlCommand(query, Bd_Distribuidora.ObtenerConexion());
+
+            string query1 = "DELETE FROM `inventario` WHERE `id`= "+id_producto+";";
+            MySqlCommand cmd = new MySqlCommand(query1, Bd_Distribuidora.ObtenerConexion());
+
+            try
+            {
+                cmd.ExecuteNonQuery();
+                cmd1.ExecuteNonQuery();
+                MessageBox.Show("Se dió de baja el producto vencido");
+                mostrar();
+            }
+            catch (MySqlException ex)
+            {
+                MessageBox.Show("Ocurrió un error: " + ex);
+
+            }
+        }
     }
 }

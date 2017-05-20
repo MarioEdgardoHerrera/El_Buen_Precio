@@ -48,5 +48,26 @@ namespace El_Buen_Precio
         {
             ActualizarTabla();
         }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            Disponibilidad Regresar = new Disponibilidad();
+            Regresar.Show();
+            this.Hide();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Producto Regresar = new Producto();
+            Regresar.Show();
+            this.Hide();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            vencimiento Regresar = new vencimiento();
+            Regresar.Show();
+            this.Hide();
+        }
     }
 }

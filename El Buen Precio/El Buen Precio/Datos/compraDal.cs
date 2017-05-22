@@ -19,7 +19,7 @@ namespace El_Buen_Precio
             comando.Parameters.AddWithValue("@cantidad", pcompra.Cantidad);
             comando.Parameters.AddWithValue("@inventario", pcompra.Inventario_id);
             comando.Parameters.AddWithValue("@fecha",pcompra.fecha_compra.Date);
-            comando.Parameters.AddWithValue("@fecha_venci", pcompra.fecha_compra.Date);
+            comando.Parameters.AddWithValue("@fecha_venci", pcompra.fecha_vencimiento.Date);
             retorno = comando.ExecuteNonQuery();
             return retorno;
         }

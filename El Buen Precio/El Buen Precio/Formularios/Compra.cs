@@ -37,6 +37,11 @@ namespace El_Buen_Precio
 
             }
         }
-        
+
+        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            compras pcompra = new compras();
+            pcompra.Inventario_id = Convert.ToInt32(txt_producto.Text.Trim());
+        }
     }
 }

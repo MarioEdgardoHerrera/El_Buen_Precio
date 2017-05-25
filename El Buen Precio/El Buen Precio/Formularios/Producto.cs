@@ -19,22 +19,30 @@ namespace El_Buen_Precio
 
         private void button1_Click(object sender, EventArgs e)
         {
-            cl_producto pcl_producto = new cl_producto();
-            pcl_producto.Nombre_Producto = textBox1.Text.Trim();
-            pcl_producto.Precio_Compra = precio_compra.Value;
-            pcl_producto.Precio_Venta = precio_venta.Value;
-            pcl_producto.Proveedor_id = Convert.ToInt32(txt_proveedor.Text);
-            pcl_producto.Categoria_id = Convert.ToInt32(txt_categoria.Text);
-
-            int resultado = cl_productoDal.agregar(pcl_producto);
-            if (resultado > 0)
+            try
             {
-                MessageBox.Show("Producto Agregado con Exito!!", "Agregado", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                cl_producto pcl_producto = new cl_producto();
+                pcl_producto.Nombre_Producto = textBox1.Text.Trim();
+                pcl_producto.Precio_Compra = precio_compra.Value;
+                pcl_producto.Precio_Venta = precio_venta.Value;
+
+                if (txt_proveedor.Text != "") pcl_producto.Proveedor_id = Convert.ToInt32(txt_proveedor.Text);
+
+                if (txt_categoria.Text != "") pcl_producto.Categoria_id = Convert.ToInt32(txt_categoria.Text);
+
+                int resultado = cl_productoDal.agregar(pcl_producto);
+                if (resultado > 0)
+                {
+                    MessageBox.Show("Producto Agregado con Exito!!", "Agregado", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                }
+                else
+                {
+                    MessageBox.Show("No se pudo agregar el Producto", "Fallo!!", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                }
             }
-            else
+            catch
             {
-                MessageBox.Show("No se pudo agregar el Producto", "Fallo!!", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
-
+                MessageBox.Show("Uno o varios valores no son correctos", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
 

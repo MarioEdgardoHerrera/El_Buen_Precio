@@ -13,7 +13,8 @@ namespace El_Buen_Precio
 
             int retorno = 0;
 
-            string query = "INSERT INTO `distribuidora_el_buen_precio`.`producto` (`nombre_producto`, `proveedor_id`, `precio_compra`, `precio_venta`, `categoria_id`) VALUES (@nombre, @prov_id, @precio_compra, @precio_venta, @cat_id);";
+            string query = @"INSERT INTO `distribuidora_el_buen_precio`.`producto`(`nombre_producto`, `proveedor_id`, `precio_compra`, 
+                            `precio_venta`, `categoria_id`) VALUES (@nombre, @prov_id, @precio_compra, @precio_venta, @cat_id);";
 
             MySqlCommand comando = new MySqlCommand(query, Bd_Distribuidora.ObtenerConexion());
             comando.Parameters.AddWithValue("@nombre", pcl_producto.Nombre_Producto);

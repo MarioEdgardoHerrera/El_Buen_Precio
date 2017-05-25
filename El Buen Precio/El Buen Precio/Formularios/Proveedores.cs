@@ -26,10 +26,10 @@ namespace El_Buen_Precio
 
         private void button2_Click(object sender, EventArgs e)
         {
-              proveedor pproveedores = new proveedor();
+            proveedor pproveedores = new proveedor();
             pproveedores.Nombre_Proveedor = textBox1.Text.Trim();
             pproveedores.Apellido_Proveedor = textBox2.Text.Trim();
-            pproveedores.Numero_Telf_Proveedor = Convert.ToInt32(textBox3.Text.Trim());
+            pproveedores.Numero_Telf_Proveedor = textBox3.Text.Trim();
 
             int resultado = proveedoresDal.agregar(pproveedores);
             if (resultado > 0)

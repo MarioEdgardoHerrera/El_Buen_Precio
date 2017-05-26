@@ -106,6 +106,7 @@
             this.txt_cantidad.Name = "txt_cantidad";
             this.txt_cantidad.Size = new System.Drawing.Size(200, 20);
             this.txt_cantidad.TabIndex = 14;
+            this.txt_cantidad.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txt_cantidad_KeyPress);
             // 
             // txt_producto
             // 

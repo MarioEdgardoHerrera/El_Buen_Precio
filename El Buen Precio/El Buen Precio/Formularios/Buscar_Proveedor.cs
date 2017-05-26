@@ -33,5 +33,7 @@ namespace El_Buen_Precio
             conectar.Close();
         
         }
+
+        
     }
 }

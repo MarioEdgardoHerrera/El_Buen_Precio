@@ -43,5 +43,25 @@ namespace El_Buen_Precio
             compras pcompra = new compras();
             pcompra.Inventario_id = Convert.ToInt32(txt_producto.Text.Trim());
         }
+
+        private void txt_cantidad_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (Char.IsDigit(e.KeyChar))
+            {
+                e.Handled = false;
+            }
+            else if (Char.IsControl(e.KeyChar))
+            {
+                e.Handled = false;
+            }
+            else if (Char.IsSeparator(e.KeyChar))
+            {
+                e.Handled = false;
+            }
+            else
+            {
+                e.Handled = true;
+            }
+        }
     }
 }

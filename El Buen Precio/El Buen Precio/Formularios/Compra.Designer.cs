@@ -67,6 +67,7 @@
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(200, 21);
             this.comboBox1.TabIndex = 20;
+            this.comboBox1.ValueMember = "Id";
             // 
             // dateTimePicker2
             // 

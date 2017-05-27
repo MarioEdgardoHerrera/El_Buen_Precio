@@ -18,6 +18,7 @@ namespace El_Buen_Precio
         {
             InitializeComponent();
             ListarProductos();
+
         }
 
         public class ProductoLista
@@ -56,7 +57,7 @@ namespace El_Buen_Precio
         private void button1_Click(object sender, EventArgs e)
         {
             compras pcompra = new compras();
-            pcompra.Inventario_id = Convert.ToInt32(comboBox1.SelectedValue);
+            pcompra.Product_id = Convert.ToInt32(comboBox1.SelectedValue);
             pcompra.Cantidad = Convert.ToInt32(txt_cantidad.Text.Trim());
             pcompra.fecha_compra = dateTimePicker1.Value;
             pcompra.fecha_vencimiento = dateTimePicker2.Value;

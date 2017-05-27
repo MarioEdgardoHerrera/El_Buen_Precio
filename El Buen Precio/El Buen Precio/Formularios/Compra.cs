@@ -17,20 +17,20 @@ namespace El_Buen_Precio
         public Compra()
         {
             InitializeComponent();
-            ListarProductos()
+            ListarProductos();
         }
 
         public class ProductoLista
         {
-            public int Id;
-            public int Value;
+            public int Id { get; set; }
+            public string Value { get; set; }
         }
 
         public List<ProductoLista>productoLista = new List<ProductoLista>();
         
         public void ListarProductos()
         {
-            string query = "SELECT id nombre_producto FROM producto";
+            string query = "SELECT id, nombre_producto FROM producto";
             MySqlCommand cmd = new MySqlCommand(query, Bd_Distribuidora.ObtenerConexion());
 
             try
@@ -42,14 +42,14 @@ namespace El_Buen_Precio
                     productoLista.Add(new ProductoLista
                     {
                         Id = reader.GetInt32("id"),
-                        Value = reader.GetInt32("nombre"),
+                        Value = reader.GetString("nombre_producto")
                     });
                 }
                 comboBox1.DataSource = productoLista;
             }
-            catch
+            catch(Exception ex)
             {
-                MessageBox.Show("no se pudo cargar los productos");
+                MessageBox.Show("no se pudo cargar los productos" + ex);
             }
         }
 

@@ -181,7 +181,6 @@ C:\Users\Luis Johany Centeno\Documents\Visual Studio 2015\Projects\El_Buen_Preci
 C:\Users\Luis Johany Centeno\Documents\Visual Studio 2015\Projects\El_Buen_Precio\El Buen Precio\El Buen Precio\bin\Debug\MySql.Data.xml
 C:\Users\Luis Johany Centeno\Documents\Visual Studio 2015\Projects\El_Buen_Precio\El Buen Precio\El Buen Precio\obj\Debug\El Buen Precio.csprojResolveAssemblyReference.cache
 C:\Users\Luis Johany Centeno\Documents\Visual Studio 2015\Projects\El_Buen_Precio\El Buen Precio\El Buen Precio\obj\Debug\El_Buen_Precio.Buscar_Proveedor.resources
-C:\Users\Luis Johany Centeno\Documents\Visual Studio 2015\Projects\El_Buen_Precio\El Buen Precio\El Buen Precio\obj\Debug\El_Buen_Precio.buscar_productos.resources
 C:\Users\Luis Johany Centeno\Documents\Visual Studio 2015\Projects\El_Buen_Precio\El Buen Precio\El Buen Precio\obj\Debug\El_Buen_Precio.Categorias.resources
 C:\Users\Luis Johany Centeno\Documents\Visual Studio 2015\Projects\El_Buen_Precio\El Buen Precio\El Buen Precio\obj\Debug\El_Buen_Precio.Disponibilidad.resources
 C:\Users\Luis Johany Centeno\Documents\Visual Studio 2015\Projects\El_Buen_Precio\El Buen Precio\El Buen Precio\obj\Debug\El_Buen_Precio.Distribuidoras.resources
@@ -265,3 +264,5 @@ C:\Users\mon\Desktop\El_Buen_Precio\El Buen Precio\El Buen Precio\obj\Debug\El B
 C:\Users\mon\Desktop\El_Buen_Precio\El Buen Precio\El Buen Precio\obj\Debug\El Buen Precio.pdb
 C:\El_Buen_Precio\El Buen Precio\El Buen Precio\obj\Debug\El_Buen_Precio.Busqueda.resources
 C:\El_Buen_Precio\El Buen Precio\El Buen Precio\obj\Debug\El_Buen_Precio.Modificar_Producto.resources
+C:\Users\Luis Johany Centeno\Documents\Visual Studio 2015\Projects\El_Buen_Precio\El Buen Precio\El Buen Precio\obj\Debug\El_Buen_Precio.Busqueda.resources
+C:\Users\Luis Johany Centeno\Documents\Visual Studio 2015\Projects\El_Buen_Precio\El Buen Precio\El Buen Precio\obj\Debug\El_Buen_Precio.Modificar_Producto.resources

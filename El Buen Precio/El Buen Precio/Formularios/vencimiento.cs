@@ -23,7 +23,7 @@ namespace El_Buen_Precio
             MySqlConnection conectar = new MySqlConnection("server=127.0.0.1; database=distribuidora_el_buen_precio; Uid=root; pwd=;");
 
             conectar.Open();
-            string buscar_pro = "SELECT compra_productos.cantidad, compra_productos.inventario_id, compra_productos.fecha_vencimiento, inventario.producto_id, producto.nombre_producto FROM compra_productos INNER JOIN inventario ON compra_productos.inventario_id = inventario.id INNER JOIN producto ON inventario.producto_id = producto.id where CURDATE() >= fecha_vencimiento ";
+            string buscar_pro = "select `distribuidora_el_buen_precio`.`compra_productos`.`cantidad` AS `cantidad`,`distribuidora_el_buen_precio`.`compra_productos`.`product_id` AS `product_id`,`distribuidora_el_buen_precio`.`compra_productos`.`fecha_vencimiento` AS `fecha_vencimiento`,`distribuidora_el_buen_precio`.`inventario`.`producto_id` AS `producto_id`,`distribuidora_el_buen_precio`.`producto`.`nombre_producto` AS `nombre_producto` from((`distribuidora_el_buen_precio`.`compra_productos` join `distribuidora_el_buen_precio`.`inventario` on((`distribuidora_el_buen_precio`.`compra_productos`.`product_id` = `distribuidora_el_buen_precio`.`inventario`.`producto_id`)))  join `distribuidora_el_buen_precio`.`producto`  on((`distribuidora_el_buen_precio`.`inventario`.`producto_id` = `distribuidora_el_buen_precio`.`producto`.`id`))) WHERE `compra_productos`.`fecha_vencimiento` >= CURDATE()";
             MySqlDataAdapter adaptador = new MySqlDataAdapter(buscar_pro, conectar);
             DataTable dt = new DataTable();
             adaptador.Fill(dt);

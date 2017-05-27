@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using MetroFramework;
+using MySql.Data.MySqlClient;
 
 namespace El_Buen_Precio
 {
@@ -16,12 +17,46 @@ namespace El_Buen_Precio
         public Compra()
         {
             InitializeComponent();
+            ListarProductos()
+        }
+
+        public class ProductoLista
+        {
+            public int Id;
+            public int Value;
+        }
+
+        public List<ProductoLista>productoLista = new List<ProductoLista>();
+        
+        public void ListarProductos()
+        {
+            string query = "SELECT id nombre_producto FROM producto";
+            MySqlCommand cmd = new MySqlCommand(query, Bd_Distribuidora.ObtenerConexion());
+
+            try
+            {
+                productoLista.Clear();
+                MySqlDataReader reader = cmd.ExecuteReader();
+                while (reader.Read())
+                {
+                    productoLista.Add(new ProductoLista
+                    {
+                        Id = reader.GetInt32("id"),
+                        Value = reader.GetInt32("nombre"),
+                    });
+                }
+                comboBox1.DataSource = productoLista;
+            }
+            catch
+            {
+                MessageBox.Show("no se pudo cargar los productos");
+            }
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
             compras pcompra = new compras();
-            pcompra.Inventario_id = Convert.ToInt32(txt_producto.Text.Trim());
+            pcompra.Inventario_id = Convert.ToInt32(comboBox1.SelectedValue);
             pcompra.Cantidad = Convert.ToInt32(txt_cantidad.Text.Trim());
             pcompra.fecha_compra = dateTimePicker1.Value;
             pcompra.fecha_vencimiento = dateTimePicker2.Value;
@@ -40,8 +75,6 @@ namespace El_Buen_Precio
 
         private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
-            compras pcompra = new compras();
-            pcompra.Inventario_id = Convert.ToInt32(txt_producto.Text.Trim());
         }
     }
 }

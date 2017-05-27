@@ -57,6 +57,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Formularios\Busqueda.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\Busqueda.Designer.cs">
+      <DependentUpon>Busqueda.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\Modificar_Producto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\Modificar_Producto.Designer.cs">
+      <DependentUpon>Modificar_Producto.cs</DependentUpon>
+    </Compile>
     <Compile Include="Negocios\agregarusuario.cs" />
     <Compile Include="Datos\agregarusuarioDal.cs" />
     <Compile Include="Negocios\clase_usuario.cs" />
@@ -68,12 +80,6 @@
     </Compile>
     <Compile Include="Formularios\Buscar_Proveedor.Designer.cs">
       <DependentUpon>Buscar_Proveedor.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Formularios\buscar_productos.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Formularios\buscar_productos.Designer.cs">
-      <DependentUpon>buscar_productos.cs</DependentUpon>
     </Compile>
     <Compile Include="Formularios\Login.cs">
       <SubType>Form</SubType>
@@ -192,11 +198,11 @@
     <Compile Include="Formularios\Reguistrar.Designer.cs">
       <DependentUpon>Reguistrar.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Formularios\Busqueda.resx">
+      <DependentUpon>Busqueda.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Formularios\Buscar_Proveedor.resx">
       <DependentUpon>Buscar_Proveedor.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Formularios\buscar_productos.resx">
-      <DependentUpon>buscar_productos.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Formularios\Categorias.resx">
       <DependentUpon>Categorias.cs</DependentUpon>
@@ -230,6 +236,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Formularios\Login.resx">
       <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\Modificar_Producto.resx">
+      <DependentUpon>Modificar_Producto.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

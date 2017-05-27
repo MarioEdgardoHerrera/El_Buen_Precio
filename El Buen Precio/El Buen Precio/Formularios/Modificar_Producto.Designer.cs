@@ -1,6 +1,6 @@
 ﻿namespace El_Buen_Precio
 {
-    partial class Producto
+    partial class Modificar_Producto
     {
         /// <summary>
         /// Required designer variable.
@@ -28,9 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Producto));
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.button2 = new System.Windows.Forms.Button();
             this.txt_categoria = new System.Windows.Forms.TextBox();
             this.txt_proveedor = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
@@ -42,6 +40,7 @@
             this.button1 = new System.Windows.Forms.Button();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
+            this.button2 = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.precio_venta)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.precio_compra)).BeginInit();
@@ -61,21 +60,11 @@
             this.groupBox1.Controls.Add(this.button1);
             this.groupBox1.Controls.Add(this.textBox1);
             this.groupBox1.Controls.Add(this.label1);
-            this.groupBox1.Location = new System.Drawing.Point(23, 63);
+            this.groupBox1.Location = new System.Drawing.Point(23, 91);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(236, 223);
-            this.groupBox1.TabIndex = 0;
+            this.groupBox1.Size = new System.Drawing.Size(236, 248);
+            this.groupBox1.TabIndex = 1;
             this.groupBox1.TabStop = false;
-            // 
-            // button2
-            // 
-            this.button2.Location = new System.Drawing.Point(6, 194);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(75, 23);
-            this.button2.TabIndex = 7;
-            this.button2.Text = "Regresar";
-            this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // txt_categoria
             // 
@@ -173,11 +162,11 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(155, 194);
+            this.button1.Location = new System.Drawing.Point(74, 219);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 23);
             this.button1.TabIndex = 2;
-            this.button1.Text = "Agregar";
+            this.button1.Text = "Modificar";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
@@ -187,7 +176,6 @@
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(120, 20);
             this.textBox1.TabIndex = 1;
-            this.textBox1.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBox1_KeyPress);
             // 
             // label1
             // 
@@ -198,15 +186,24 @@
             this.label1.TabIndex = 0;
             this.label1.Text = "Nombre";
             // 
-            // Producto
+            // button2
+            // 
+            this.button2.Location = new System.Drawing.Point(74, 190);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(75, 23);
+            this.button2.TabIndex = 2;
+            this.button2.Text = "Seleccionar";
+            this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
+            // 
+            // Modificar_Producto
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(292, 324);
+            this.ClientSize = new System.Drawing.Size(300, 362);
             this.Controls.Add(this.groupBox1);
-            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Name = "Producto";
-            this.Text = "Producto";
+            this.Name = "Modificar_Producto";
+            this.Text = "Modificar_Producto";
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.precio_venta)).EndInit();
@@ -218,17 +215,17 @@
         #endregion
 
         private System.Windows.Forms.GroupBox groupBox1;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.NumericUpDown precio_venta;
-        private System.Windows.Forms.NumericUpDown precio_compra;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.TextBox txt_proveedor;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.TextBox txt_categoria;
-        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button button2;
+        public System.Windows.Forms.TextBox txt_categoria;
+        public System.Windows.Forms.TextBox txt_proveedor;
+        public System.Windows.Forms.NumericUpDown precio_venta;
+        public System.Windows.Forms.NumericUpDown precio_compra;
+        public System.Windows.Forms.TextBox textBox1;
     }
 }

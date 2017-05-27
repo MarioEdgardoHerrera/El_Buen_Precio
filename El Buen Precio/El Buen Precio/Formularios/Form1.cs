@@ -117,5 +117,12 @@ namespace El_Buen_Precio
             Salir.Show();
             this.Hide();
         }
+
+        private void modificarToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            Modificar_Producto objModfi = new Modificar_Producto();
+            objModfi.MdiParent = this;
+            objModfi.Show();
+        }
     }
 }

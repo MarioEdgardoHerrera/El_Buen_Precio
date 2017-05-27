@@ -20,18 +20,18 @@ namespace El_Buen_Precio
   
         private void button1_Click(object sender, EventArgs e)
         {
-            if (usuarioDal.autenticar(textBox1.Text, textBox2.Text)>0)
-            {
+            //if (usuarioDal.autenticar(textBox1.Text, textBox2.Text)>0)
+            //{
                 Form1 menu = new Form1();
                 menu.Show();
                 this.Hide();
 
-            }
-            else
-            {
-                MessageBox.Show("Verifique su contraseña o Nombre de Usuario", "Fallo!!", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+            //}
+            //else
+            //{
+            //    MessageBox.Show("Verifique su contraseña o Nombre de Usuario", "Fallo!!", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
 
-            }
+            //}
 
         }
 

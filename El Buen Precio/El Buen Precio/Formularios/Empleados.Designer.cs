@@ -69,6 +69,7 @@
             this.txt_direccion.Name = "txt_direccion";
             this.txt_direccion.Size = new System.Drawing.Size(144, 20);
             this.txt_direccion.TabIndex = 9;
+            this.txt_direccion.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txt_direccion_KeyPress);
             // 
             // label5
             // 
@@ -85,6 +86,7 @@
             this.txt_estado_civil.Name = "txt_estado_civil";
             this.txt_estado_civil.Size = new System.Drawing.Size(144, 20);
             this.txt_estado_civil.TabIndex = 7;
+            this.txt_estado_civil.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txt_estado_civil_KeyPress);
             // 
             // txt_telefono
             // 
@@ -92,6 +94,7 @@
             this.txt_telefono.Name = "txt_telefono";
             this.txt_telefono.Size = new System.Drawing.Size(144, 20);
             this.txt_telefono.TabIndex = 6;
+            this.txt_telefono.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txt_telefono_KeyPress);
             // 
             // txt_apellido
             // 
@@ -99,6 +102,7 @@
             this.txt_apellido.Name = "txt_apellido";
             this.txt_apellido.Size = new System.Drawing.Size(144, 20);
             this.txt_apellido.TabIndex = 5;
+            this.txt_apellido.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txt_apellido_KeyPress);
             // 
             // txt_nombre
             // 
@@ -106,6 +110,7 @@
             this.txt_nombre.Name = "txt_nombre";
             this.txt_nombre.Size = new System.Drawing.Size(144, 20);
             this.txt_nombre.TabIndex = 4;
+            this.txt_nombre.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txt_nombre_KeyPress);
             // 
             // label4
             // 

@@ -138,17 +138,17 @@
             this.realizarVentasToolStripMenuItem,
             this.registarToolStripMenuItem,
             this.verToolStripMenuItem,
+            this.modificarToolStripMenuItem,
             this.reportesToolStripMenuItem,
             this.productoToolStripMenuItem1,
             this.proveedorToolStripMenuItem1,
             this.verInventarioToolStripMenuItem,
             this.descuentosToolStripMenuItem1,
             this.imprimirToolStripMenuItem,
-            this.salirToolStripMenuItem,
-            this.modificarToolStripMenuItem});
+            this.salirToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(911, 24);
+            this.menuStrip1.Size = new System.Drawing.Size(811, 24);
             this.menuStrip1.TabIndex = 1;
             this.menuStrip1.Text = "menuStrip1";
             this.menuStrip1.ItemClicked += new System.Windows.Forms.ToolStripItemClickedEventHandler(this.menuStrip1_ItemClicked);
@@ -359,7 +359,7 @@
             this.BackColor = System.Drawing.SystemColors.ControlLightLight;
             this.BackgroundImage = global::El_Buen_Precio.Properties.Resources.EL_BUEN_PRECIOrealArreglado;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(911, 586);
+            this.ClientSize = new System.Drawing.Size(811, 459);
             this.Controls.Add(this.menuStrip1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.IsMdiContainer = true;

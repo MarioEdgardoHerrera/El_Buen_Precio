@@ -43,6 +43,12 @@
             this.num_cantidad = new System.Windows.Forms.NumericUpDown();
             this.txt_salida = new System.Windows.Forms.TextBox();
             this.button2 = new System.Windows.Forms.Button();
+            this.text_total = new System.Windows.Forms.TextBox();
+            this.label4 = new System.Windows.Forms.Label();
+            this.text_pago = new System.Windows.Forms.TextBox();
+            this.label5 = new System.Windows.Forms.Label();
+            this.text_cambio = new System.Windows.Forms.TextBox();
+            this.label6 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.dt_factura_productos)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dt_productos)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.num_cantidad)).BeginInit();
@@ -70,7 +76,7 @@
             // 
             // button_quitar
             // 
-            this.button_quitar.Location = new System.Drawing.Point(491, 400);
+            this.button_quitar.Location = new System.Drawing.Point(296, 400);
             this.button_quitar.Name = "button_quitar";
             this.button_quitar.Size = new System.Drawing.Size(75, 28);
             this.button_quitar.TabIndex = 2;
@@ -108,7 +114,7 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(675, 400);
+            this.button1.Location = new System.Drawing.Point(664, 490);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(99, 28);
             this.button1.TabIndex = 7;
@@ -196,11 +202,66 @@
             this.button2.UseVisualStyleBackColor = true;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
+            // text_total
+            // 
+            this.text_total.Location = new System.Drawing.Point(663, 403);
+            this.text_total.Name = "text_total";
+            this.text_total.Size = new System.Drawing.Size(100, 20);
+            this.text_total.TabIndex = 15;
+            this.text_total.TextChanged += new System.EventHandler(this.text_total_TextChanged);
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(602, 410);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(31, 13);
+            this.label4.TabIndex = 16;
+            this.label4.Text = "Total";
+            // 
+            // text_pago
+            // 
+            this.text_pago.Location = new System.Drawing.Point(663, 430);
+            this.text_pago.Name = "text_pago";
+            this.text_pago.Size = new System.Drawing.Size(100, 20);
+            this.text_pago.TabIndex = 17;
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(602, 433);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(32, 13);
+            this.label5.TabIndex = 18;
+            this.label5.Text = "Pago";
+            // 
+            // text_cambio
+            // 
+            this.text_cambio.Location = new System.Drawing.Point(663, 457);
+            this.text_cambio.Name = "text_cambio";
+            this.text_cambio.Size = new System.Drawing.Size(100, 20);
+            this.text_cambio.TabIndex = 19;
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(602, 460);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(42, 13);
+            this.label6.TabIndex = 20;
+            this.label6.Text = "Cambio";
+            // 
             // Facturacion
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(786, 445);
+            this.ClientSize = new System.Drawing.Size(786, 529);
+            this.Controls.Add(this.label6);
+            this.Controls.Add(this.text_cambio);
+            this.Controls.Add(this.label5);
+            this.Controls.Add(this.text_pago);
+            this.Controls.Add(this.label4);
+            this.Controls.Add(this.text_total);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.txt_salida);
             this.Controls.Add(this.num_cantidad);
@@ -242,5 +303,11 @@
         private System.Windows.Forms.NumericUpDown num_cantidad;
         private System.Windows.Forms.TextBox txt_salida;
         private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.TextBox text_total;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.TextBox text_pago;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.TextBox text_cambio;
+        private System.Windows.Forms.Label label6;
     }
 }

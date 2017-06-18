@@ -30,7 +30,8 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Producto));
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.button2 = new System.Windows.Forms.Button();
+            this.comboBox_categoria = new System.Windows.Forms.ComboBox();
+            this.comboBox_proveedor = new System.Windows.Forms.ComboBox();
             this.label5 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.precio_venta = new System.Windows.Forms.NumericUpDown();
@@ -40,8 +41,6 @@
             this.button1 = new System.Windows.Forms.Button();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
-            this.comboBox_proveedor = new System.Windows.Forms.ComboBox();
-            this.comboBox_categoria = new System.Windows.Forms.ComboBox();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.precio_venta)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.precio_compra)).BeginInit();
@@ -51,7 +50,6 @@
             // 
             this.groupBox1.Controls.Add(this.comboBox_categoria);
             this.groupBox1.Controls.Add(this.comboBox_proveedor);
-            this.groupBox1.Controls.Add(this.button2);
             this.groupBox1.Controls.Add(this.label5);
             this.groupBox1.Controls.Add(this.label4);
             this.groupBox1.Controls.Add(this.precio_venta);
@@ -67,15 +65,25 @@
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
             // 
-            // button2
+            // comboBox_categoria
             // 
-            this.button2.Location = new System.Drawing.Point(6, 194);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(75, 23);
-            this.button2.TabIndex = 7;
-            this.button2.Text = "Regresar";
-            this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
+            this.comboBox_categoria.DisplayMember = "Value";
+            this.comboBox_categoria.FormattingEnabled = true;
+            this.comboBox_categoria.Location = new System.Drawing.Point(96, 160);
+            this.comboBox_categoria.Name = "comboBox_categoria";
+            this.comboBox_categoria.Size = new System.Drawing.Size(121, 21);
+            this.comboBox_categoria.TabIndex = 8;
+            this.comboBox_categoria.ValueMember = "Id";
+            // 
+            // comboBox_proveedor
+            // 
+            this.comboBox_proveedor.DisplayMember = "Value";
+            this.comboBox_proveedor.FormattingEnabled = true;
+            this.comboBox_proveedor.Location = new System.Drawing.Point(96, 122);
+            this.comboBox_proveedor.Name = "comboBox_proveedor";
+            this.comboBox_proveedor.Size = new System.Drawing.Size(121, 21);
+            this.comboBox_proveedor.TabIndex = 1;
+            this.comboBox_proveedor.ValueMember = "Id";
             // 
             // label5
             // 
@@ -159,7 +167,7 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(155, 194);
+            this.button1.Location = new System.Drawing.Point(97, 194);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 23);
             this.button1.TabIndex = 2;
@@ -184,31 +192,11 @@
             this.label1.TabIndex = 0;
             this.label1.Text = "Nombre";
             // 
-            // comboBox_proveedor
-            // 
-            this.comboBox_proveedor.DisplayMember = "Value";
-            this.comboBox_proveedor.FormattingEnabled = true;
-            this.comboBox_proveedor.Location = new System.Drawing.Point(96, 122);
-            this.comboBox_proveedor.Name = "comboBox_proveedor";
-            this.comboBox_proveedor.Size = new System.Drawing.Size(121, 21);
-            this.comboBox_proveedor.TabIndex = 1;
-            this.comboBox_proveedor.ValueMember = "Id";
-            // 
-            // comboBox_categoria
-            // 
-            this.comboBox_categoria.DisplayMember = "Value";
-            this.comboBox_categoria.FormattingEnabled = true;
-            this.comboBox_categoria.Location = new System.Drawing.Point(96, 160);
-            this.comboBox_categoria.Name = "comboBox_categoria";
-            this.comboBox_categoria.Size = new System.Drawing.Size(121, 21);
-            this.comboBox_categoria.TabIndex = 8;
-            this.comboBox_categoria.ValueMember = "Id";
-            // 
             // Producto
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(303, 357);
+            this.ClientSize = new System.Drawing.Size(303, 311);
             this.Controls.Add(this.groupBox1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Producto";
@@ -233,7 +221,6 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Button button2;
         private System.Windows.Forms.ComboBox comboBox_categoria;
         private System.Windows.Forms.ComboBox comboBox_proveedor;
     }

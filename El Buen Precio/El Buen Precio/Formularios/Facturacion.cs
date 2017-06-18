@@ -184,5 +184,10 @@ namespace El_Buen_Precio
             Regresar.Show();
             this.Hide();
         }
+
+        private void text_total_TextChanged(object sender, EventArgs e)
+        {
+            
+        }
     }
 }

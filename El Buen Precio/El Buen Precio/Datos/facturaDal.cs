@@ -69,7 +69,7 @@ namespace El_Buen_Precio
 
             string query = @"SELECT `producto`.`nombre_producto`, `facturas`.`cliente`, 
                             `factura_productos`.`cantidad`, `producto`.`precio_venta` as precio,
-                            `producto`.`id` as codigo
+                            `producto`.`id` as codigo, `cantidad`*`precio_venta` as `subtotal`
 
                             FROM `producto`
                             LEFT JOIN `factura_productos` ON `producto`.`id` = `factura_productos`.`producto_id` 

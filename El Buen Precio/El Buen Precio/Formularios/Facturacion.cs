@@ -108,6 +108,9 @@ namespace El_Buen_Precio
             textBox_buscar.Enabled = true;
             num_cantidad.Enabled = true;
             button_agregar.Enabled = true;
+
+            factura_id_txt.Text = id_factura.ToString();
+            Obtener_total();
         }
 
         private void button_agregar_Click(object sender, EventArgs e)
@@ -143,6 +146,7 @@ namespace El_Buen_Precio
             finally
             {
                 dt_factura_productos.DataSource = facturaDal.ProductosFactura(Factura.id);
+                Obtener_total();
             }
         }
 
@@ -154,6 +158,7 @@ namespace El_Buen_Precio
 
             txt_salida.Text = facturaDal.QuitarProducto(c_producto);
             dt_factura_productos.DataSource = facturaDal.ProductosFactura(Factura.id);
+            Obtener_total();
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -188,6 +193,19 @@ namespace El_Buen_Precio
         private void text_total_TextChanged(object sender, EventArgs e)
         {
             
+        }
+
+        private decimal Obtener_total()
+        {
+            decimal total = 0;
+
+            for (int i = 0; i < dt_factura_productos.Rows.Count; ++i)
+            {
+                total += Convert.ToDecimal(dt_factura_productos.Rows[i].Cells[5].Value);
+            }
+            text_total.Text = total.ToString();
+
+            return total;
         }
     }
 }

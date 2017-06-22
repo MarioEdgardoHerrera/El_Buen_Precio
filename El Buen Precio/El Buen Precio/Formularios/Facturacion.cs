@@ -187,7 +187,7 @@ namespace El_Buen_Precio
 
         private void text_total_TextChanged(object sender, EventArgs e)
         {
-            
+
         }
     }
 }

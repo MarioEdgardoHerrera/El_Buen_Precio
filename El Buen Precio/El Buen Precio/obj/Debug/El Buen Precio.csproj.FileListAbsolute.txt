@@ -266,3 +266,4 @@ C:\El_Buen_Precio\El Buen Precio\El Buen Precio\obj\Debug\El_Buen_Precio.Busqued
 C:\El_Buen_Precio\El Buen Precio\El Buen Precio\obj\Debug\El_Buen_Precio.Modificar_Producto.resources
 C:\Users\Luis Johany Centeno\Documents\Visual Studio 2015\Projects\El_Buen_Precio\El Buen Precio\El Buen Precio\obj\Debug\El_Buen_Precio.Busqueda.resources
 C:\Users\Luis Johany Centeno\Documents\Visual Studio 2015\Projects\El_Buen_Precio\El Buen Precio\El Buen Precio\obj\Debug\El_Buen_Precio.Modificar_Producto.resources
+C:\El_Buen_Precio\El Buen Precio\El Buen Precio\obj\Debug\El_Buen_Precio.Modificar_Factura.resources

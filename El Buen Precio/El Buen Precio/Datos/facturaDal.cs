@@ -69,7 +69,7 @@ namespace El_Buen_Precio
 
             string query = @"SELECT `producto`.`nombre_producto`, `facturas`.`cliente`, 
                             `factura_productos`.`cantidad`, `producto`.`precio_venta` as precio,
-                            `producto`.`id` as codigo, `cantidad`*`precio_venta` as `subtotal`
+                            producto.`id` as codigo, `cantidad`*`precio_venta` as `subtotal`
 
                             FROM `producto`
                             LEFT JOIN `factura_productos` ON `producto`.`id` = `factura_productos`.`producto_id` 
@@ -93,7 +93,7 @@ namespace El_Buen_Precio
         public static DataTable ListaProductos()
         {
             DataTable dt = new DataTable();
-            string query = "SELECT nombre_producto as nombre, id as codigo FROM distribuidora_el_buen_precio.producto;";
+            string query = "call distribuidora_el_buen_precio.listar_productos();";
             MySqlDataAdapter da = new MySqlDataAdapter(query, Bd_Distribuidora.ObtenerConexion());
 
             try
@@ -109,12 +109,12 @@ namespace El_Buen_Precio
             return dt;
         }
 
-        public static string QuitarProducto(int id)
+        public static string QuitarProducto(int id_producto)
         {
             string info = "";
-            string query = "DELETE FROM `distribuidora_el_buen_precio`.`factura_productos` WHERE `id`= @id_producto;";
+            string query = "DELETE FROM `factura_productos` WHERE `id`= @id_producto";
             MySqlCommand cmd = new MySqlCommand(query, Bd_Distribuidora.ObtenerConexion());
-            cmd.Parameters.AddWithValue("@id_producto", id);
+            cmd.Parameters.AddWithValue("@id_producto", id_producto);
 
             try
             {

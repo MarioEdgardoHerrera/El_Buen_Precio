@@ -103,16 +103,28 @@ namespace El_Buen_Precio
         private void btn_seleccionar_factura_Click(object sender, EventArgs e)
         {
             int id_factura = Convert.ToInt32(comboBox_facturas.SelectedValue);
-            dt_factura_productos.DataSource = facturaDal.ProductosFactura(id_factura);
-            Factura.id = id_factura;
-            textBox_buscar.Enabled = true;
-            num_cantidad.Enabled = true;
-            button_agregar.Enabled = true;
+            if(id_factura > 0)
+            {
+                dt_factura_productos.DataSource = facturaDal.ProductosFactura(id_factura);
+                Factura.id = id_factura;
+                textBox_buscar.Enabled = true;
+                num_cantidad.Enabled = true;
+                button_agregar.Enabled = true;
+
+                factura_id_txt.Text = id_factura.ToString();
+                Obtener_total();
+            }
         }
 
         private void button_agregar_Click(object sender, EventArgs e)
         {
             int c_producto = 0;
+            decimal existencias;
+            // Basicamente esto obtiene el id del item seleccionado en el datagrid
+            int selectExistencias = dt_productos.SelectedCells[0].RowIndex;
+            DataGridViewRow selectedRowExistencias = dt_productos.Rows[selectExistencias];
+            existencias = Convert.ToDecimal(selectedRowExistencias.Cells["existencias"].Value);
+
             string query = @"INSERT INTO factura_productos(factura_id, producto_id, cantidad)
                              VALUES(@factura, @producto, @cantidad)";
 
@@ -120,7 +132,7 @@ namespace El_Buen_Precio
             {
                 MySqlCommand cmd = new MySqlCommand(query, Bd_Distribuidora.ObtenerConexion());
 
-                if (dt_productos.SelectedCells.Count > 0)
+                if (dt_productos.SelectedCells.Count > 0 && Convert.ToDecimal(num_cantidad.Value)<existencias)
                 {
                     // Basicamente esto obtiene el id del item seleccionado en el datagrid
                     int selectedrowindex = dt_productos.SelectedCells[0].RowIndex;
@@ -143,6 +155,7 @@ namespace El_Buen_Precio
             finally
             {
                 dt_factura_productos.DataSource = facturaDal.ProductosFactura(Factura.id);
+                Obtener_total();
             }
         }
 
@@ -154,6 +167,7 @@ namespace El_Buen_Precio
 
             txt_salida.Text = facturaDal.QuitarProducto(c_producto);
             dt_factura_productos.DataSource = facturaDal.ProductosFactura(Factura.id);
+            Obtener_total();
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -186,6 +200,24 @@ namespace El_Buen_Precio
         }
 
         private void text_total_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private decimal Obtener_total()
+        {
+            decimal total = 0;
+
+            for (int i = 0; i < dt_factura_productos.Rows.Count; ++i)
+            {
+                total += Convert.ToDecimal(dt_factura_productos.Rows[i].Cells[5].Value);
+            }
+            text_total.Text = total.ToString();
+
+            return total;
+        }
+
+        private void EliminarFactura_Click(object sender, EventArgs e)
         {
 
         }

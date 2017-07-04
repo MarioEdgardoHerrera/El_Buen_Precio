@@ -7,8 +7,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using MySql.Data.MySqlClient;
 using MetroFramework.Forms;
+using MySql.Data.MySqlClient;
+
 namespace El_Buen_Precio
 {
     public partial class vencimiento : MetroFramework.Forms.MetroForm

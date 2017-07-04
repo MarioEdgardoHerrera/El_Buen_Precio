@@ -131,7 +131,7 @@
             // 
             this.button1.Location = new System.Drawing.Point(64, 254);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(243, 54);
+            this.button1.Size = new System.Drawing.Size(243, 28);
             this.button1.TabIndex = 2;
             this.button1.Text = "Registrar";
             this.button1.UseVisualStyleBackColor = true;
@@ -141,7 +141,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(389, 331);
+            this.ClientSize = new System.Drawing.Size(389, 301);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.groupBox1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));

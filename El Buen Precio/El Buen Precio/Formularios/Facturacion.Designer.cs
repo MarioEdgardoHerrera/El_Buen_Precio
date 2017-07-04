@@ -51,7 +51,7 @@
             this.label6 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.factura_id_txt = new System.Windows.Forms.TextBox();
-            this.EliminarFactura = new System.Windows.Forms.Button();
+            this.ModificarFactura = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dt_factura_productos)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dt_productos)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.num_cantidad)).BeginInit();
@@ -79,7 +79,7 @@
             // 
             // button_quitar
             // 
-            this.button_quitar.Location = new System.Drawing.Point(283, 400);
+            this.button_quitar.Location = new System.Drawing.Point(366, 402);
             this.button_quitar.Name = "button_quitar";
             this.button_quitar.Size = new System.Drawing.Size(126, 28);
             this.button_quitar.TabIndex = 2;
@@ -99,11 +99,11 @@
             // dt_factura_productos
             // 
             this.dt_factura_productos.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dt_factura_productos.Location = new System.Drawing.Point(283, 91);
+            this.dt_factura_productos.Location = new System.Drawing.Point(366, 91);
             this.dt_factura_productos.MultiSelect = false;
             this.dt_factura_productos.Name = "dt_factura_productos";
             this.dt_factura_productos.ReadOnly = true;
-            this.dt_factura_productos.Size = new System.Drawing.Size(491, 303);
+            this.dt_factura_productos.Size = new System.Drawing.Size(595, 303);
             this.dt_factura_productos.TabIndex = 5;
             // 
             // label2
@@ -117,7 +117,7 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(664, 490);
+            this.button1.Location = new System.Drawing.Point(862, 486);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(99, 28);
             this.button1.TabIndex = 7;
@@ -142,7 +142,7 @@
             this.dt_productos.MultiSelect = false;
             this.dt_productos.Name = "dt_productos";
             this.dt_productos.ReadOnly = true;
-            this.dt_productos.Size = new System.Drawing.Size(263, 303);
+            this.dt_productos.Size = new System.Drawing.Size(336, 303);
             this.dt_productos.TabIndex = 9;
             // 
             // btn_seleccionar_factura
@@ -190,7 +190,7 @@
             // txt_salida
             // 
             this.txt_salida.Enabled = false;
-            this.txt_salida.Location = new System.Drawing.Point(554, 32);
+            this.txt_salida.Location = new System.Drawing.Point(741, 32);
             this.txt_salida.Name = "txt_salida";
             this.txt_salida.Size = new System.Drawing.Size(220, 20);
             this.txt_salida.TabIndex = 13;
@@ -207,7 +207,7 @@
             // 
             // text_total
             // 
-            this.text_total.Location = new System.Drawing.Point(663, 403);
+            this.text_total.Location = new System.Drawing.Point(861, 407);
             this.text_total.Name = "text_total";
             this.text_total.ReadOnly = true;
             this.text_total.Size = new System.Drawing.Size(100, 20);
@@ -217,7 +217,7 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(602, 406);
+            this.label4.Location = new System.Drawing.Point(824, 410);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(31, 13);
             this.label4.TabIndex = 16;
@@ -225,7 +225,7 @@
             // 
             // text_pago
             // 
-            this.text_pago.Location = new System.Drawing.Point(663, 430);
+            this.text_pago.Location = new System.Drawing.Point(861, 434);
             this.text_pago.Name = "text_pago";
             this.text_pago.Size = new System.Drawing.Size(100, 20);
             this.text_pago.TabIndex = 17;
@@ -233,7 +233,7 @@
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(601, 433);
+            this.label5.Location = new System.Drawing.Point(823, 437);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(32, 13);
             this.label5.TabIndex = 18;
@@ -241,7 +241,7 @@
             // 
             // text_cambio
             // 
-            this.text_cambio.Location = new System.Drawing.Point(663, 457);
+            this.text_cambio.Location = new System.Drawing.Point(861, 460);
             this.text_cambio.Name = "text_cambio";
             this.text_cambio.Size = new System.Drawing.Size(100, 20);
             this.text_cambio.TabIndex = 19;
@@ -249,7 +249,7 @@
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(602, 460);
+            this.label6.Location = new System.Drawing.Point(814, 463);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(42, 13);
             this.label6.TabIndex = 20;
@@ -259,7 +259,7 @@
             // 
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(551, 68);
+            this.label7.Location = new System.Drawing.Point(738, 65);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(62, 13);
             this.label7.TabIndex = 21;
@@ -268,29 +268,29 @@
             // factura_id_txt
             // 
             this.factura_id_txt.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.factura_id_txt.Location = new System.Drawing.Point(619, 65);
+            this.factura_id_txt.Location = new System.Drawing.Point(806, 61);
             this.factura_id_txt.Name = "factura_id_txt";
             this.factura_id_txt.ReadOnly = true;
             this.factura_id_txt.Size = new System.Drawing.Size(155, 20);
             this.factura_id_txt.TabIndex = 22;
             // 
-            // EliminarFactura
+            // ModificarFactura
             // 
-            this.EliminarFactura.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.EliminarFactura.Location = new System.Drawing.Point(554, 490);
-            this.EliminarFactura.Name = "EliminarFactura";
-            this.EliminarFactura.Size = new System.Drawing.Size(104, 28);
-            this.EliminarFactura.TabIndex = 23;
-            this.EliminarFactura.Text = "Eliminar Factura";
-            this.EliminarFactura.UseVisualStyleBackColor = true;
-            this.EliminarFactura.Click += new System.EventHandler(this.EliminarFactura_Click);
+            this.ModificarFactura.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ModificarFactura.Location = new System.Drawing.Point(752, 486);
+            this.ModificarFactura.Name = "ModificarFactura";
+            this.ModificarFactura.Size = new System.Drawing.Size(104, 28);
+            this.ModificarFactura.TabIndex = 23;
+            this.ModificarFactura.Text = "Modificar Factura";
+            this.ModificarFactura.UseVisualStyleBackColor = true;
+            this.ModificarFactura.Click += new System.EventHandler(this.EliminarFactura_Click);
             // 
             // Facturacion
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(786, 529);
-            this.Controls.Add(this.EliminarFactura);
+            this.ClientSize = new System.Drawing.Size(984, 529);
+            this.Controls.Add(this.ModificarFactura);
             this.Controls.Add(this.factura_id_txt);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.label6);
@@ -348,6 +348,6 @@
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.TextBox factura_id_txt;
-        private System.Windows.Forms.Button EliminarFactura;
+        private System.Windows.Forms.Button ModificarFactura;
     }
 }

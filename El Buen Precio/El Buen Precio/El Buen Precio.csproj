@@ -69,10 +69,10 @@
     <Compile Include="Formularios\Modificar_Producto.Designer.cs">
       <DependentUpon>Modificar_Producto.cs</DependentUpon>
     </Compile>
-    <Compile Include="Modificar_Factura.cs">
+    <Compile Include="Formularios\Modificar_Factura.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Modificar_Factura.Designer.cs">
+    <Compile Include="Formularios\Modificar_Factura.Designer.cs">
       <DependentUpon>Modificar_Factura.cs</DependentUpon>
     </Compile>
     <Compile Include="Negocios\agregarusuario.cs" />
@@ -246,7 +246,7 @@
     <EmbeddedResource Include="Formularios\Modificar_Producto.resx">
       <DependentUpon>Modificar_Producto.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Modificar_Factura.resx">
+    <EmbeddedResource Include="Formularios\Modificar_Factura.resx">
       <DependentUpon>Modificar_Factura.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">

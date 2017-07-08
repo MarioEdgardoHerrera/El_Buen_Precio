@@ -66,7 +66,7 @@
             // dt_facturas
             // 
             this.dt_facturas.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dt_facturas.Location = new System.Drawing.Point(55, 42);
+            this.dt_facturas.Location = new System.Drawing.Point(12, 43);
             this.dt_facturas.MultiSelect = false;
             this.dt_facturas.Name = "dt_facturas";
             this.dt_facturas.ReadOnly = true;
@@ -75,18 +75,19 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(55, 352);
+            this.button1.Location = new System.Drawing.Point(12, 352);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 23);
             this.button1.TabIndex = 26;
             this.button1.Text = "Dar de Baja";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(137, 351);
+            this.button2.Location = new System.Drawing.Point(611, 352);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(94, 23);
+            this.button2.Size = new System.Drawing.Size(128, 23);
             this.button2.TabIndex = 27;
             this.button2.Text = "Cambiar Cliente";
             this.button2.UseVisualStyleBackColor = true;

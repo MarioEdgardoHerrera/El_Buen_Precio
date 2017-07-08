@@ -124,5 +124,12 @@ namespace El_Buen_Precio
             objModfi.MdiParent = this;
             objModfi.Show();
         }
+
+        private void facturaToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            Modificar_Factura modFactura = new Modificar_Factura();
+            modFactura.MdiParent = this;
+            modFactura.Show();
+        }
     }
 }

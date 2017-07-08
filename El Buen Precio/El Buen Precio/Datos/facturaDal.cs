@@ -169,5 +169,40 @@ namespace El_Buen_Precio
 
             return "Listo!";
         }
+
+        public static DataTable listaFacturas()
+        {
+            DataTable dt = new DataTable();
+            string query = "SELECT * FROM distribuidora_el_buen_precio.facturas;";
+            MySqlDataAdapter da = new MySqlDataAdapter(query, Bd_Distribuidora.ObtenerConexion());
+
+            try
+            {
+                da.Fill(dt);
+                Console.WriteLine("leídos todas las facturas");
+            }
+
+            catch
+            {
+                MessageBox.Show("Error", "No se pudo cargar la lista de facturas", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            return dt;
+        }
+
+        public static void anularFactura(int factura_id)
+        {
+            try
+            {
+                string query = "UPDATE `distribuidora_el_buen_precio`.`facturas` SET `valida`='0' WHERE `id`=@factura_id;";
+                MySqlCommand cmd = new MySqlCommand(query, Bd_Distribuidora.ObtenerConexion());
+                cmd.Parameters.AddWithValue("@factura_id", factura_id);
+                cmd.ExecuteNonQuery();
+                MessageBox.Show("Listo", "Factura anulada", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
+            catch
+            {
+                MessageBox.Show("Error", "No se pudo anular la factura",MessageBoxButtons.OK,MessageBoxIcon.Error);
+            }
+        }
     }
 }
